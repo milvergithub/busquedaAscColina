@@ -14,19 +14,15 @@ public class Nodo {
             this.elemento = elemento;
             hijos = new ArrayList<Nodo>();
     }
-
     public String getElemento() {
             return elemento;
     }
-
     public void addHijo(Nodo hijo) {
             hijos.add(hijo);
     }
-
     public List<Nodo> getHijos() {
             return hijos;
     }
-
     public boolean esNodoHoja() {
             return hijos.size() > 0;
     }
